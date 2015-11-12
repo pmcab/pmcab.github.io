@@ -12,6 +12,7 @@ $(function() {
 	$("#services").backstretch("images/3.jpg");
 	
 	// Countdown
+	//Comment Pat: set the count down date here - american style !!
 	$('.countdown').downCount({
 		date: '12/31/2015 22:00:00',
 		offset: +10
