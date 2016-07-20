@@ -1,0 +1,158 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px; /* Made more space to top and bottom */
+  
+}
+
+@font-face {
+    font-family: 'MyWebFont';
+    src: url(../fonts/Museo300-Regular.otf);
+    font-style: normal;
+}	
+
+@font-face {
+    font-family: 'MyWebFont_p';
+    src: url(../gotham/GOTHAM-XLIGHT.ttf);
+    font-style: normal;
+}	
+/* unordered list of class nav: if first font does not work, use second font (i.e. courier), otherwoise serif */ 
+
+ul.nav {
+	font-family: 'MyWebFont_p', courier, serif;
+	font-size: 13px;
+
+}
+
+footer {
+	background-color:#006676;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	position: relative;
+}	
+
+/* First part of file = html related, than Id's, and then classes */
+
+#how {
+	background-color: #F5F5EE;
+}	
+
+#back-to-top {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}	
+
+#back-to-top a {
+	color: #5cb85c;
+	text-decoration: none; 
+}	
+/* added more space for the navbar and the logo
+.container {
+margin-bottom: 10px;
+margin-top: 10px;
+}
+*/
+
+.jumbotron {
+
+   background-color: #F5F5EE; /*Beige*/;
+}
+
+.navbar-brand {
+	padding: 5px;
+}
+
+.navbar-default {
+    background-color:#212121;/*#F5F5EE/*Beige */
+    border-color: #212121; /* #006676; /*Gray*/
+    /*border-bottom-width: 5px;*/
+ 
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover  {
+    color: white;
+    background-color: #006676; /* Use CoachCab blue: #408C98 or dark blue #006676; or Green: #12784D */
+}
+
+.navbar-nav>li>a {
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+/*
+.navbar-right ul {
+    color: green;
+}
+*/
+}
+.jumbotron 
+{
+	text-align: center;
+	
+}	
+
+.jumbotron h1 
+{
+	font-family: 'Arvo', courier, serif;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	font-size:20px;
+	color: #006676;
+}	
+.jumbotron h2 
+{
+	font-family: 'MyWebFont', courier, serif;
+	color: #006676;
+	font-size:14px;
+	font-weight: 100;
+
+}	
+.jumbotron h3 {
+	font-family: 'MyWebFont', courier, serif;
+	color: #12784D;
+	font-size:14px;
+	font-weight: 100;
+	
+}	
+
+.container p {
+	font-family: 'MyWebFont_p', courier, serif;
+	margin-bottom: 30px;
+	font-weight: 100;
+	padding: 0 50px;
+	font-size:14px;
+	color:#006676;
+}
+
+
+.container footer {
+	font-family: 'MyWebFont', courier, serif;
+}	
+
+.btn-lg {
+	font-size: 36px;
+}	
+
+.emphasis {
+	color: blue;
+	font-size: 21px;
+}	
+
+
+
+.homepage hr 
+{
+	border-color: #397d02;
+    width: 160px;
+    margin-top: 15px;
+}
+.homepage a
+{	color:#12784D;
+	
+}
+
+.homepage a:hover
+{	color:#397d02;
+	text-decoration: none; /* link is not underlined as a standard*/
+	opacity: 0.8;
+	/*cursor: auto; /* ensures that link is not underlined when it is selected */
+}
+
